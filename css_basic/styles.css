@@ -1,0 +1,21 @@
+body {
+   display: flex;
+   flex-direction: column;
+   background:linear-gradient(120deg,red,blue)
+}
+main {
+   display: flex;
+   flex-direction: row;
+   flex:auto;
+}
+article {
+   flex: 2;
+   overflow-y: auto;
+}
+aside {
+   flex: 1;
+   overflow-y: auto;
+}
+article {
+   border: 2px solid gray;
+}
